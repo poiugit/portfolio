@@ -14,6 +14,8 @@
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-black: #000000;
+  --color-brown: #954e0a;
+  --color-dark-brown: #9d4f00;
 
   /* Font size */
   --font-large: 48px;
@@ -107,7 +109,7 @@ p {
 }
 
 #navbar.navbar--dark {
-  background-color: var(--color-pink);
+  background-color: var(--color-brown);
   padding: 8px;
 }
 
@@ -130,7 +132,7 @@ p {
 
 .navbar__menu__item:hover {
   border-color: var(--color-white);
-  background-color: var(--color-dark-pink);
+  background-color: var(--color-brown);
 }
 
 .navbar__toggle-btn {
@@ -223,7 +225,7 @@ p {
 }
 
 .major__icon i:hover {
-  color: var(--color-pink);
+  color: var(--color-brown);
   transform: rotate(-30deg) scale(1.1);
 }
 
@@ -329,7 +331,7 @@ p {
 
 .category__btn.selected,
 .category__btn:hover {
-  background-color: var(--color-pink);
+  background-color: var(--color-brown);
   color: var(--color-white);
 }
 
@@ -462,12 +464,12 @@ p {
 }
 
 .testimonial__speech-bubble a {
-  color: var(--color-pink);
+  color: var(--color-dark-brown);
 }
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-color: var(--color-brown);
 }
 
 .contact__title,
@@ -499,7 +501,7 @@ p {
   width: 70px;
   height: 70px;
   font-size: 50px;
-  color: brown;
+  color: var(--color-dark-pink);
   opacity: 0;
   pointer-events: none;
   transition: all 330ms ease-in;
